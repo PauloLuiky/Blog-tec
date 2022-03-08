@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+}
+
+.top-bar{
+  background-color: dodgerblue;
+  padding: 15px 0px;
+}
+
+.navigation{
+  margin: 10px 0px;
+  background-color: lightgray;
+  margin: 15px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  margin: 10px;
+}
+
+.menu-item{
+  flex: 1;
+  text-align: center;
+}
